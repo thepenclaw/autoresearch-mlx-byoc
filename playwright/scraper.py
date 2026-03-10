@@ -15,10 +15,10 @@ from datetime import datetime
 # =============================================================================
 
 CONFIG = {
-    "wait_until": "domcontentloaded",
-    "timeout": 60000,
-    "headless": True,
-    "viewport": {"width": 1920, "height": 1080},  # CHANGED: Larger viewport
+    "wait_until": "domcontentloaded",  # FINAL: Best wait strategy
+    "timeout": 60000,                   # FINAL: 60s optimal
+    "headless": True,                   # FINAL: Headless is faster
+    "viewport": {"width": 1280, "height": 720},  # FINAL: Desktop viewport
     "user_agent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.0",
 }
 
