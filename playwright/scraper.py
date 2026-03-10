@@ -15,11 +15,11 @@ from datetime import datetime
 # =============================================================================
 
 CONFIG = {
-    "wait_until": "domcontentloaded",  # CHANGED: "networkidle" → "domcontentloaded" for speed
-    "timeout": 60000,                   # CHANGED: 30000 → 60000 for slow sites
+    "wait_until": "domcontentloaded",
+    "timeout": 60000,
     "headless": True,
-    "viewport": {"width": 1280, "height": 720},
-    "user_agent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.0",
+    "viewport": {"width": 375, "height": 667},  # CHANGED: Mobile viewport for speed
+    "user_agent": "Mozilla/5.0 (iPhone; CPU iPhone OS 17_0 like Mac OS X) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/17.0 Mobile/15E148 Safari/604.1",
 }
 
 # =============================================================================
