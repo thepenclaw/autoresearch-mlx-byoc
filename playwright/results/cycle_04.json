@@ -1,0 +1,121 @@
+{
+  "timestamp": "2026-03-10T23:49:45.090928",
+  "config": {
+    "wait_until": "domcontentloaded",
+    "timeout": 60000,
+    "headless": true,
+    "viewport": {
+      "width": 375,
+      "height": 667
+    },
+    "user_agent": "Mozilla/5.0 (iPhone; CPU iPhone OS 17_0 like Mac OS X) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/17.0 Mobile/15E148 Safari/604.1"
+  },
+  "total_urls": 10,
+  "successful": 10,
+  "total_time": 28.49,
+  "avg_time": 1.94,
+  "avg_completeness": 0.719,
+  "total_score": 0.371,
+  "results": [
+    {
+      "category": "static_doc",
+      "url": "https://docs.python.org/3/",
+      "success": true,
+      "time_seconds": 1.41,
+      "html_size": 22019,
+      "extracted_chars": 1022,
+      "completeness": 0.667,
+      "score": 0.471
+    },
+    {
+      "category": "react_spa",
+      "url": "https://react.dev/learn/",
+      "success": true,
+      "time_seconds": 0.54,
+      "html_size": 265270,
+      "extracted_chars": 11360,
+      "completeness": 0.667,
+      "score": 1.232
+    },
+    {
+      "category": "forum",
+      "url": "https://news.ycombinator.com/",
+      "success": true,
+      "time_seconds": 1.63,
+      "html_size": 34972,
+      "extracted_chars": 4186,
+      "completeness": 0.703,
+      "score": 0.432
+    },
+    {
+      "category": "productivity",
+      "url": "https://www.notion.com/",
+      "success": true,
+      "time_seconds": 2.21,
+      "html_size": 281342,
+      "extracted_chars": 384,
+      "completeness": 0.831,
+      "score": 0.376
+    },
+    {
+      "category": "ecommerce",
+      "url": "https://www.shopify.com/",
+      "success": true,
+      "time_seconds": 0.69,
+      "html_size": 563200,
+      "extracted_chars": 2295,
+      "completeness": 0.653,
+      "score": 0.953
+    },
+    {
+      "category": "vue_docs",
+      "url": "https://vuejs.org/guide/",
+      "success": true,
+      "time_seconds": 0.67,
+      "html_size": 113789,
+      "extracted_chars": 8151,
+      "completeness": 0.667,
+      "score": 1.002
+    },
+    {
+      "category": "social",
+      "url": "https://www.reddit.com/r/MachineLearning/",
+      "success": true,
+      "time_seconds": 1.34,
+      "html_size": 537817,
+      "extracted_chars": 3623,
+      "completeness": 1.0,
+      "score": 0.745
+    },
+    {
+      "category": "api_docs",
+      "url": "https://stripe.com/docs",
+      "success": true,
+      "time_seconds": 7.98,
+      "html_size": 1411489,
+      "extracted_chars": 1182,
+      "completeness": 0.667,
+      "score": 0.084
+    },
+    {
+      "category": "github",
+      "url": "https://github.com/torvalds/linux",
+      "success": true,
+      "time_seconds": 1.39,
+      "html_size": 331655,
+      "extracted_chars": 6119,
+      "completeness": 0.667,
+      "score": 0.479
+    },
+    {
+      "category": "blog",
+      "url": "https://blog.mozilla.org/en/mozilla/",
+      "success": true,
+      "time_seconds": 1.54,
+      "html_size": 69332,
+      "extracted_chars": 1330,
+      "completeness": 0.667,
+      "score": 0.433
+    }
+  ]
+}
