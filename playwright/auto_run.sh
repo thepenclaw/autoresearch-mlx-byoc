@@ -54,9 +54,9 @@ for i in {1..10}; do
     # If not last cycle, sleep 6 hours
     if [ $i -lt 10 ]; then
         echo ""
-        echo "Sleeping 6 hours until next cycle..."
-        echo "Next cycle starts at: $(date -v+6H)"
-        sleep 21600  # 6 hours = 21600 seconds
+        echo "Sleeping 15 minutes until next cycle..."
+        echo "Next cycle starts at: $(date -v+15M)"
+        sleep 900  # 6 hours = 21600 seconds
     fi
 done
 
