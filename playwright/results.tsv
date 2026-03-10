@@ -1,0 +1,2 @@
+cycle	timestamp	score	avg_time	completeness	config
+1	2026-03-10T23:03:14.899427	0.204	3.27	0.665	{"wait_until": "networkidle", "timeout": 30000, "headless": true, "viewport": {"width": 1280, "height": 720}, "user_agent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.0"}
