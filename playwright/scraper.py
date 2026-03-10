@@ -15,10 +15,10 @@ from datetime import datetime
 # =============================================================================
 
 CONFIG = {
-    "wait_until": "networkidle",      # Options: "load", "domcontentloaded", "networkidle"
-    "timeout": 30000,                  # Options: 5000, 10000, 20000, 30000, 60000 (ms)
-    "headless": True,                  # Options: True, False
-    "viewport": {"width": 1280, "height": 720},  # Modify dimensions
+    "wait_until": "domcontentloaded",  # CHANGED: "networkidle" → "domcontentloaded" for speed
+    "timeout": 60000,                   # CHANGED: 30000 → 60000 for slow sites
+    "headless": True,
+    "viewport": {"width": 1280, "height": 720},
     "user_agent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.0",
 }
 
